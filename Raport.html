@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="libraries/bootstrap-4.6.1-dist/css/bootstrap-grid.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/Data_Siswa.css" />
+    <link rel="stylesheet" href="style/Raport.css" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Mukta&family=Ruluko&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Raport Semester Siswa</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- Navbar -->
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <a class="navbar-brand" href="# ">
+            <img
+              src="images/Logo_Sekolah.png  "
+              width="55"
+              height="40"
+              alt="#"
+            />
+            SIAAP
+          </a>
+          <!--profil dropdown-->
+          <div class="dropdown profil ml-auto mr-3 btn-tak">
+            <button class="mainmenubtn">
+              <img src="images/profil.png" width="30" height="30 " alt="#" />
+            </button>
+            <div class="dropdown-child">
+              <div class="card">
+                <center>
+                  <img
+                    src="images/profil_siswa.png"
+                    width="60"
+                    height="60"
+                    alt=""
+                  />
+                  <p>
+                    <strong>Dwi Rahma</strong> <br />
+                    ( 14745 )
+                  </p>
+                </center>
+              </div>
+
+              <center>
+                <a href="Homepage-1.html">
+                  <button type=" submit " class="btn btn-danger">
+                    <img
+                      src="images/off.png"
+                      width="15"
+                      height="15 "
+                      alt=""
+                    />Log Out
+                  </button></a
+                >
+              </center>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- End Navbar -->
+
+      <!-- judul -->
+      <div class="dashboard">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light" s>
+            <div class="navbar-brand-1" href="# ">
+              <h6>Raport Semester Siswa</h6>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- end judul -->
+    </header>
+
+    <main>
+      <div class="container ml-5">
+        <div class="row">
+          <div class="col-sm">
+            <div class="">
+              <div class="col">Nama Sekolah</div>
+              <div class="col">Nama Siswa</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="col">Kelas</div>
+          </div>
+        </div>
+      </div>
+      <!-- button close -->
+      <a href="dasboard_siswa.html">
+        <button type="button" class="close" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </a>
+      <!-- end button close -->
+      <div class="box1">
+        <ul class="kolom1">
+          <li>Nama Sekolah : SMP 01 Gunung Pati</li>
+          <li>Nama Siswa&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Dwi Rahma</li>
+          <li>
+            Alamat&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            : Brati
+          </li>
+          <li>
+            NIS
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            : 14745
+          </li>
+        </ul>
+        <ul class="kolom2">
+          <li>
+            Kelas
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            : VII (Tujuh)
+          </li>
+          <li>
+            Semester &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 1
+            (Satu)
+          </li>
+          <li>Tahun Pelajaran : 2021</li>
+        </ul>
+      </div>
+      <div class="box2">
+        <table class="tabel1">
+          <tr>
+            <td rowspan="2" colspan="2" class="kel" id="mapel">
+              Mata Pelajaran
+            </td>
+            <td colspan="3">
+              Pengetahuan <br />
+              (KI-3)
+            </td>
+          </tr>
+          <tr>
+            <td>Angka</td>
+            <td>Predikat</td>
+          </tr>
+          <tr>
+            <td colspan="2" text-align="leftt" class="kel">
+              <b>Kelompok A (Wajib)</b>
+            </td>
+            <td>1 - 100</td>
+            <td>A - D</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td class="kel">Pendidikan Agama dan Budi Pekerti</td>
+            <td>92</td>
+            <td>A</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td class="kel">Pendidikan Pancasila dan Kewarganegaraan</td>
+            <td>81</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td class="kel">Bahasa Indonesia</td>
+            <td>85</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td class="kel">Matematika</td>
+            <td>86</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td class="kel">Ilmu Pengetahuan Sosial</td>
+            <td>80</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td class="kel">Ilmu Pengetahuan Alam</td>
+            <td>87</td>
+            <td>A</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td class="kel">Bahasa Inggris</td>
+            <td>85</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td colspan="4" class="kel"><b>Kelompok B (Wajib)</b></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td class="kel">Seni Budaya</td>
+            <td>79</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td class="kel">Pendidikan Jasmani, Olah Raga, dan Kesehatan</td>
+            <td>82</td>
+            <td>B</td>
+          </tr>
+          <tr>
+            <td colspan="4" class="kel"><b>Kelompok C (Muatan Lokal)</b></td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td class="kel">Bahasa Jawa</td>
+            <td>85</td>
+            <td>B</td>
+          </tr>
+        </table>
+
+        <table class="tabel2">
+          <tr>
+            <td class="kel"><b>Ekstrakulikuler</b></td>
+            <td class="kel"><b>Kegiatan yang Telah dilakukan</b></td>
+          </tr>
+          <tr>
+            <td colspan="2" class="kel">1. Praja Muda Karana (Pramuka)</td>
+          </tr>
+          <tr>
+            <td colspan="2" class="kel">2. dsb</td>
+          </tr>
+        </table>
+
+        <table class="tabel3">
+          <tr>
+            <td colspan="2"><b>Ketidakhadiran</b></td>
+          </tr>
+          <tr>
+            <td class="kel">Sakit</td>
+            <td class="kel">:.......Hari</td>
+          </tr>
+          <tr>
+            <td class="kel">Izin</td>
+            <td class="kel">:.......Hari</td>
+          </tr>
+          <tr>
+            <td class="kel">Tanpa Keterangan</td>
+            <td class="kel">:.......Hari</td>
+          </tr>
+        </table>
+
+        <div class="orangtua">
+          <b>Mengetahui :.............</b><br /><br />
+          <b>Orang Tua/Wali</b><br />
+          <br /><br /><br />
+          <b>......................</b>
+        </div>
+        <div class="walikelas">
+          <b>.............20...</b><br /><br />
+          <b>Wali Kelas</b><br />
+          <br /><br /><br />
+          <b>......................</b>
+        </div>
+      </div>
+
+      <!-- <div class="download">
+            <a href="#"><input type="submit" value="Download PDF" class="submit btn-outline-succes"></a>
+        </div> -->
+      <div class="container">
+        <button
+          onclick="alert('Download Sukses')"
+          type=" submit "
+          class="btn btn-outline-success float-right mt-5"
+        >
+          Download PDF
+        </button>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-2">Version 1.0</div>
+          <div class="col-2">Copyright©2021 SIIAP</div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="libraries/bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
+    <script src="retina-1.3.0/ "></script>
+  </body>
+</html>

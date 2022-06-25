@@ -1,0 +1,437 @@
+/* Body Background */
+
+body {
+    background-size: cover;
+}
+
+.konten1 {
+    background-color: #d3e0ea;
+}
+
+
+/* .konten2 {
+    background-color: #d3e0ea;
+} */
+
+
+/* Search Button */
+
+.gambar-cari {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* Search Box */
+
+.img-fluid {
+    width: 45px;
+    height: 30px;
+    margin: 10px 2px 0 0;
+}
+
+.form-inline {
+    width: 370px;
+    height: 22px;
+}
+
+.btn {
+    font-family: Merriweather;
+    background-color: #276678;
+    border-color: #276678;
+    color: white;
+    margin-right: 10px;
+}
+
+
+/* Homepage 5 */
+
+.gambar-berita {
+    width: 535px;
+    height: 472px;
+    margin: 79px 0 77px 0px;
+}
+
+.kata8 {
+    margin: 70px 0 0px 0;
+    font-size: 25px;
+    text-align: left;
+    font-family: Salsa;
+}
+
+.kata8 pre {
+    font-style: justify;
+    font-size: 20px;
+    font-family: Ruluko;
+    margin: 0px 30px 0 0px;
+}
+
+
+/* Body Home page 4 */
+
+.Agenda {
+    margin: 20px 0 0 0;
+    flex-grow: 0;
+    font-family: Salsa;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+
+/* Body Homepage 4*/
+
+.Rectangle-173 pre {
+    font-family: Ruluko;
+    font-size: 35px;
+    width: 90px;
+    height: 105px;
+    flex-grow: 0;
+    margin: 51px -19px 0 32px;
+    padding: 23px 23px 23px 23px;
+    background-color: #1687a7;
+}
+
+.Rectangle-174 pre {
+    font-family: Ruluko;
+    font-size: 35px;
+    width: 90px;
+    height: 105px;
+    flex-grow: 0;
+    margin: 0px -53px 0 32px;
+    padding: 23px 20px 23px 23px;
+    background-color: #1687a7;
+}
+
+.p-3 pre {
+    font-family: Ruluko;
+    font-size: 20px;
+    width: 437px;
+    height: 105px;
+    flex-grow: 0;
+    margin: -17px 0px 30px 45px;
+    padding: 35px 63px 18px 10px;
+    background-color: #fff;
+}
+
+.p-2 pre {
+    font-family: Ruluko;
+    font-size: 20px;
+    width: 437px;
+    height: 105px;
+    flex-grow: 0;
+    margin: 43px 0 34px 20px;
+    padding: 35px 63px 18px 10px;
+    background-color: #fff;
+}
+
+
+/* Body Homepage 3 */
+
+.img-volly {
+    width: 159px;
+    height: 172px;
+    flex-grow: 0;
+    margin: 30px 20px 10px 0;
+    border-radius: 11px;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.25);
+}
+
+.kata6 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Salsa;
+    margin: 50px 0 0 0px;
+}
+
+.kata7 pre {
+    border-radius: 11px;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.25);
+    background-color: #f6f5f5;
+    width: 159px;
+    height: 78px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Ruluko;
+    padding-top: 10px;
+    margin: -50px 20px 68px 0px;
+}
+
+
+/* Body Homepage 2 */
+
+.img-kepsek {
+    width: 180px;
+    height: 240px;
+    margin: 150px 0px 130px 50px;
+    flex-grow: 0;
+    border-radius: 11px;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.25);
+}
+
+.kata4 {
+    text-align: center;
+    font-size: 40px;
+    font-family: Salsa;
+    margin: 50px 0 0 0px;
+    margin-left: 200px !important;
+}
+
+.kata5 pre {
+    line-height: 2;
+    font-size: 18px;
+    font-family: Ruluko;
+    margin: 20px 0 0 0px;
+}
+
+
+/* Body Homepage 1*/
+
+.img-sekolah {
+    width: 581px;
+    height: 600px;
+}
+
+.kata1 {
+    font-size: 25px;
+    font-family: Ruluko;
+    margin: 100px 0 0 50px;
+}
+
+.kata2 {
+    font-size: 40px;
+    font-family: Salsa;
+    margin: 0 0 0 50px;
+}
+
+.kata3 {
+    font-size: 25px;
+    font-family: Ruluko;
+    margin: 60px 0 0 50px;
+}
+
+
+/* Footer 2 */
+
+.kotak-bacground {
+    height: 95px;
+    margin: 2px 0 0 0;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.d-flex {
+    font-size: 15px;
+}
+
+.img-data {
+    width: 42px;
+    height: 35px;
+    margin: 30px 5px 30px 30px;
+}
+
+.img-konseling {
+    width: 40px;
+    height: 40px;
+    margin: 30px 5px 30px 30px;
+}
+
+.img-uang {
+    width: 38px;
+    height: 27px;
+    margin: 30px 5px 30px 30px;
+}
+
+
+/* Footer */
+
+body footer {
+    background-color: rgba(22, 135, 167, 0.6);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+body footer .col-2 {
+    font-size: small;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+/* Media Size Support */
+
+@media only screen and (max-width: 70rem) {
+    /* Search */
+    .btn {
+        font-size: 15px;
+    }
+    .gambar-berita {
+        width: 235px;
+        height: 232px;
+        margin: 59px 0 67px 0px;
+    }
+    .kata8 {
+        margin: 60px 0 0px 0;
+        font-size: 15px;
+        text-align: left;
+        font-family: Salsa;
+    }
+    .kata8 pre {
+        font-style: justify;
+        font-size: 10px;
+        font-family: Ruluko;
+        margin: 0px 30px 0 0px;
+    }
+    /* Body Home page 4 */
+    .Agenda {
+        margin: 20px 0 0 0;
+        flex-grow: 0;
+        font-family: Salsa;
+        font-size: 50px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000;
+    }
+    /* Homepage 4 */
+    .Agenda {
+        margin: 50px 0 0 0;
+        font-size: 20px;
+    }
+    .Rectangle-173 pre {
+        font-family: Ruluko;
+        font-size: 15px;
+        width: 90px;
+        height: 75px;
+        flex-grow: 0;
+        margin: 51px -19px 0 32px;
+        padding: 23px 35px 23px 35px;
+        background-color: #1687a7;
+    }
+    .Rectangle-174 pre {
+        font-family: Ruluko;
+        font-size: 15px;
+        width: 90px;
+        height: 75px;
+        flex-grow: 0;
+        margin: 0px -53px 0 32px;
+        padding: 23px 35px 23px 35px;
+        background-color: #1687a7;
+    }
+    .p-3 pre {
+        font-family: Ruluko;
+        font-size: 10px;
+        width: 237px;
+        height: 75px;
+        flex-grow: 0;
+        margin: -17px 0px 30px 45px;
+        padding: 35px 63px 18px 10px;
+        background-color: #fff;
+    }
+    .p-2 pre {
+        font-family: Ruluko;
+        font-size: 10px;
+        width: 237px;
+        height: 75px;
+        flex-grow: 0;
+        margin: 43px 0 34px 20px;
+        padding: 35px 63px 18px 10px;
+        background-color: #fff;
+    }
+    /* Homepage 3 */
+    .kata6 {
+        text-align: center;
+        font-size: 30px;
+        font-family: Salsa;
+        margin: 50px 0 0 0px;
+    }
+    .img-volly {
+        width: 129px;
+        height: 142px;
+        flex-grow: 0;
+        margin: 30px 20px 10px 0;
+        border-radius: 11px;
+        box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.25);
+    }
+    .kata7 pre {
+        font-size: 8px;
+        width: 129px;
+        height: 50px;
+        flex-grow: 0;
+        margin: -30px 20px 76px 0px;
+        border-radius: 11px;
+        box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.25);
+        background-color: #f6f5f5;
+    }
+    /* Homepage 2 */
+    .img-kepsek {
+        width: 100px;
+        height: 140px;
+        margin: 150px 0px 130px 50px;
+        flex-grow: 0;
+        border-radius: 11px;
+        box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.25);
+    }
+    .kata4 {
+        font-size: 10px;
+        margin: 110px 0 0 0;
+    }
+    .kata5 pre {
+        font-size: 10px;
+    }
+    /* Homepage 1 */
+    .img-sekolah {
+        width: 381px;
+        height: 400px;
+    }
+    .kata1 {
+        font-size: 15px;
+    }
+    .kata2 {
+        font-size: 20px;
+    }
+    .kata3 {
+        font-size: 15px;
+    }
+    /* Footer 2 */
+    .kotak-bacground {
+        height: 70px;
+    }
+    .d-flex {
+        font-size: 8px;
+    }
+    .img-data {
+        width: 12px;
+        height: 15px;
+    }
+    .img-konseling {
+        width: 20px;
+        height: 20px;
+    }
+    .img-uang {
+        width: 18px;
+        height: 17px;
+    }
+    /* Footer */
+    body footer .col-2 {
+        font-size: 8px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    /* Footer */
+    body footer .col-2 {
+        font-size: 8px;
+        height: 1777px;
+    }
+}

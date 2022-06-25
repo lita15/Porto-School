@@ -1,0 +1,72 @@
+body {
+    background-color: #d3e0ea;
+    main {
+        .container {
+            .card-foto {
+                img {
+                    margin-top: 80px;
+                }
+            }
+            .card {
+                margin-top: 60px;
+                width: max-content;
+                height: max-content;
+                border-radius: 0;
+            }
+            h6 {
+                font-family: "Merriweather", serif;
+                margin-top: 20px;
+                font-weight: bold;
+                font-size: 18px;
+            }
+            form {
+                font-family: "Mukta", sans-serif;
+                .form-group {
+                    font-size: 15px;
+                }
+                .form-control {
+                    border-color: black;
+                    height: 30px;
+                    margin-top: -5px;
+                }
+                .form-check {
+                    margin-top: -13px;
+                    margin-bottom: 35px;
+                }
+                .form-check-label {
+                    font-size: small;
+                }
+                .btn {
+                    border-color: black;
+                    color: black;
+                }
+                p {
+                    margin-bottom: 10px;
+                }
+                .kotak {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+    footer {
+        margin-top: 60px;
+        background-color: rgba(22, 135, 167, 0.6);
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        .col-2 {
+            font-size: small;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+    }
+    @media screen and (min-width: 1700px) {
+        /* Footer */
+        body footer .col-2 {
+            font-size: 8px;
+            height: 1777px;
+        }
+    }
+}

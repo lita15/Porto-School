@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="libraries/bootstrap-4.6.1-dist/css/bootstrap-grid.min.css"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/setting_siswa.css" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Mukta&family=Ruluko&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Setting Data Diri Siswa</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- Navbar -->
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <a class="navbar-brand" href="# ">
+            <img
+              src="images/Logo_Sekolah.png  "
+              width="55"
+              height="40"
+              alt="#"
+            />
+            SIAAP
+          </a>
+          <!--profil dropdown-->
+          <div class="dropdown profil ml-auto mr-3 btn-tak">
+            <button class="mainmenubtn">
+              <img src="images/profil.png" width="30" height="30 " alt="#" />
+            </button>
+            <div class="dropdown-child">
+              <div class="card">
+                <center>
+                  <img
+                    src="images/profil_siswa.png"
+                    width="60"
+                    height="60"
+                    class=""
+                  />
+                  <p>
+                    <strong>Dwi Rahma</strong> <br />
+                    ( 14745 )
+                  </p>
+                </center>
+              </div>
+              <div class="tombol">
+                <a href="dasseting_siswa.html">
+                  <button type=" submit " class="btn btn-primary float-left">
+                    <img
+                      src="images/setting.png"
+                      width="15"
+                      height="15 "
+                      alt=""
+                    />Setting
+                  </button></a
+                >
+                <a href="Homepage-1.html">
+                  <button type=" submit " class="btn btn-danger float-right">
+                    <img
+                      src="images/off.png"
+                      width="15"
+                      height="15 "
+                      alt=""
+                    />Log Out
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- end profil -->
+        </nav>
+      </div>
+      <!-- End Navbar -->
+
+      <!-- judul -->
+      <div class="dashboard">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light" s>
+            <div class="navbar-brand-1" href="# ">
+              <h6>Halaman Setting</h6>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- end judul -->
+    </header>
+
+    <main>
+      <div class="container mt-5">
+        <div class="container">
+          <!-- button close -->
+          <a href="dasseting_siswa.html">
+            <button type="button" class="close" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </a>
+          <!-- end button close -->
+
+          <div class="isi">
+            <h5>Ganti Data Diri</h5>
+            <p>Foto Profil (Maks. 2MB)</p>
+            <div class="container">
+              <img
+                src="images/profil_putih.png"
+                width="55px"
+                height="55px"
+                alt=""
+              />
+            </div>
+            <form>
+              <div class="form-group mt-2 mb-4">
+                <input
+                  type="file"
+                  class="form-control-file"
+                  id="exampleFormControlFile1"
+                />
+              </div>
+            </form>
+            <form>
+              <div class="row">
+                <div class="col-5">
+                  Nama Lengkap
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    placeholder="Dwi Rahma"
+                  />
+                </div>
+                <div class="col-5">
+                  Email
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="email"
+                    placeholder="dwirahma@gmail.com"
+                  />
+                </div>
+              </div>
+            </form>
+
+            <form>
+              <div class="baris-2 mb-4"></div>
+              <div class="row">
+                <div class="col-5">
+                  Username
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="username"
+                    placeholder="@rahmaa"
+                  />
+                </div>
+                <div class="col-5">
+                  Nomor Telepon
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="no"
+                    placeholder="0852-5638-XXXX"
+                  />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="container mt-4">
+            <div class="row">
+              <div class="col-auto mr-auto"></div>
+              <div class="col-auto">
+                <button
+                  onclick="alert('Data Tersimpan')"
+                  type="submit"
+                  class="btn btn-outline-success"
+                >
+                  Perbarui
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row justify-content-between py-3 px-0">
+          <div>Version 1.0</div>
+          <div>Copyright©2022 SIIAP</div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="libraries/bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
+    <script src="retina-1.3.0/ "></script>
+  </body>
+</html>

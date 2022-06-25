@@ -1,0 +1,73 @@
+body {
+  background-color: #f9f9f9;
+}
+
+body header .navbar-brand {
+  font-family: "Ruluko", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+body header .navbar-nav {
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+}
+
+body header .judul1 {
+  font-family: "Merriweather", serif;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 10px !important;
+}
+
+body header .dashboard {
+  background-color: #68bbe3;
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  opacity: 0.9;
+}
+
+main .container .col .card-dashboard {
+  background-color: #d3e0ea;
+  width: 200px !important;
+  height: 280px !important;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+
+main .container .col .card-dashboard h2 {
+  margin-top: 28px;
+  font-family: "Merriweather", serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: #000;
+  text-decoration: none;
+}
+
+main .card-dashboard:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+footer {
+  background-color: #68bbe3;
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+footer .footer-credit {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 770px) {
+  /* Footer */
+  .footer-sosmed {
+    display: none;
+  }
+  body footer .col-2 {
+    height: 1777;
+  }
+}
+/*# sourceMappingURL=das_siswa.css.map */

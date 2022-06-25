@@ -1,0 +1,83 @@
+body {
+    background-image: url("../images/3jalur.png");
+    background-size: cover;
+    main {
+        height: 550px;
+        .rectangle {
+            width: 600px;
+            height: 460px;
+            background-color: #d3e0ea;
+            margin-top: 103px;
+            border-radius: 22px;
+            button {
+                padding-right: 20px;
+                padding-top: 15px;
+            }
+            img {
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 25px;
+            }
+            h1 {
+                font-family: "Merriweather", serif;
+                font-size: 30px;
+                color: black;
+                font-weight: normal;
+            }
+            .container {
+                .row {
+                    .col {
+                        .rectangle-1:hover {
+                            transform: scale(1.1);
+                            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+                            background-color: rgba(22, 135, 167, 0.6);
+                        }
+                        .rectangle-1 {
+                            margin-top: 20px;
+                            width: 150px;
+                            height: 230px;
+                            background-color: #fff;
+                            border-radius: 12px;
+                            margin-bottom: 20px;
+                            center {
+                                .gambar {
+                                    img {
+                                        padding-top: 40px;
+                                        padding-right: 28px;
+                                        padding-bottom: 26px;
+                                    }
+                                }
+                                h1 {
+                                    font-family: "Merriweather", serif;
+                                    font-size: 16px !important;
+                                    font-weight: normal !important;
+                                    outline-style: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        background-color: rgba(22, 135, 167, 0.6);
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        .col-2 {
+            font-size: small;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    /* Footer */
+    body footer .col-2 {
+        font-size: 8px;
+        height: 1777px;
+    }
+}

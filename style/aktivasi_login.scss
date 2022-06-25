@@ -1,0 +1,78 @@
+body {
+    background-image: url("../images/bg_login.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    main {
+        .container {
+            .col {
+                .card {
+                    margin-top: 180px !important;
+                    background-color: #d3e0ea;
+                    border-radius: 10px;
+                    height: auto;
+                    width: 100%;
+                    position: relative;
+                }
+                h4 {
+                    margin-top: 30px;
+                    font-family: "Merriweather", serif;
+                    font-size: 25px;
+                }
+                p {
+                    font-family: "Mukta", sans-serif;
+                    margin-bottom: 40px;
+                    margin-top: -20px;
+                }
+                .btn {
+                    margin-top: 10px;
+                    background-color: white;
+                    border-color: black;
+                    color: black;
+                    border-radius: 2px;
+                    font-family: "Merriweather", serif;
+                    font-size: 17px;
+                    width: 100%;
+                }
+            }
+            @media screen and (min-width: 1200px) {
+                .card {
+                    justify-content: center;
+                    grid-row: 1;
+                }
+                .btn {
+                    width: auto;
+                }
+            }
+            @media screen and (min-width: 500px) {
+                .card {
+                    justify-content: center;
+                    grid-column: span;
+                }
+                .btn {
+                    width: auto;
+                }
+            }
+        }
+    }
+    footer {
+        margin-top: 115px;
+        background-color: rgba(22, 135, 167, 0.6);
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        .col-2 {
+            font-size: small;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+    }
+    @media screen and (min-width: 1700px) {
+        /* Footer */
+        .col-2 {
+            font-size: 8px;
+            height: 1777px;
+        }
+    }
+}

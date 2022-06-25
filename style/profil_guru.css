@@ -1,0 +1,121 @@
+body {
+  background-color: #f9f9f9;
+}
+
+body header .navbar-brand {
+  font-family: "Ruluko", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+body header h6 {
+  font-family: "Merriweather", serif;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 10px !important;
+}
+
+body header .dashboard {
+  background-color: rgba(22, 135, 167, 0.6);
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  opacity: 0.9;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+body header .mainmenubtn {
+  position: absolute;
+  background: url("images/profil.png");
+  border: none;
+  cursor: pointer;
+  /* left: 950px; */
+  top: -15px;
+}
+
+body header .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+body header .dropdown-child {
+  position: absolute;
+  display: none;
+  height: 160px;
+  background-color: #276678;
+  border-radius: 5px;
+  min-width: 300px;
+  top: 20px;
+  /* left: 710px; */
+  z-index: 999;
+  right: -50px;
+}
+
+body header .dropdown-child a {
+  color: #0c0c0c;
+  background-color: white;
+  padding: 10px;
+  width: 268px;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: -8px;
+}
+
+body header .dropdown:hover .dropdown-child {
+  display: block;
+}
+
+body header .link {
+  margin-top: 28px;
+  margin-left: 15px;
+  border-radius: 20px;
+}
+
+body main .row .col img {
+  border-color: black;
+}
+
+body main .image-profil:hover {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+body main .card {
+  background-color: #f9f9f9;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+body main .true {
+  background-color: #b7e1b3;
+  border-color: #b7e1b3;
+}
+
+body main .false {
+  background-color: #d4a59a;
+  border-color: #d4a59a;
+}
+
+body footer {
+  background-color: rgba(22, 135, 167, 0.6);
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+body footer .col-2 {
+  font-size: small;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+@media screen and (min-width: 1700px) {
+  /* Footer */
+  body footer .col-2 {
+    font-size: 8px;
+  }
+}
+/*# sourceMappingURL=profil_guru.css.map */

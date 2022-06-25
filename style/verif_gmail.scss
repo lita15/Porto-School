@@ -1,0 +1,42 @@
+body {
+  background-color: #d3e0ea;
+
+  main {
+    margin-top: 120px;
+    h2 {
+      font-family: "Merriweather", serif;
+      color: #ffff;
+      background-color: #276678 !important;
+      margin-top: 50px;
+      padding: 20px 20px;
+      font-size: 25px;
+    }
+    .isi {
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      margin-top: -10px;
+      background-color: white;
+      padding: 45px;
+      p {
+        font-family: "Mukta", sans-serif;
+        font-size: 14px;
+      }
+      .verif {
+        font-family: "Merriweather", serif;
+        font-weight: bold;
+        color: #ffff;
+        background-color: #276678 !important;
+        font-size: 15px;
+        padding: 10px 10px;
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  /* Footer */
+  body footer .col-2 {
+    font-size: 8px;
+    height: 1777px;
+  }
+}

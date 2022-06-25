@@ -1,0 +1,90 @@
+body {
+  background-image: url("../images/bg_login.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+
+body main .container .col .card {
+  margin-top: 180px !important;
+  background-color: #d3e0ea;
+  border-radius: 10px;
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+body main .container .col h4 {
+  margin-top: 30px;
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+}
+
+body main .container .col p {
+  font-family: "Mukta", sans-serif;
+  margin-bottom: 40px;
+  margin-top: -20px;
+}
+
+body main .container .col .btn {
+  margin-top: 10px;
+  background-color: white;
+  border-color: black;
+  color: black;
+  border-radius: 2px;
+  font-family: "Merriweather", serif;
+  font-size: 17px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  body main .container .card {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  body main .container .btn {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  body main .container .card {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    grid-column: span;
+  }
+  body main .container .btn {
+    width: auto;
+  }
+}
+
+body footer {
+  margin-top: 115px;
+  background-color: rgba(22, 135, 167, 0.6);
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+body footer .col-2 {
+  font-size: small;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+@media screen and (min-width: 1700px) {
+  body {
+    /* Footer */
+  }
+  body .col-2 {
+    font-size: 8px;
+    height: 1777px;
+  }
+}
+/*# sourceMappingURL=aktivasi_login.css.map */

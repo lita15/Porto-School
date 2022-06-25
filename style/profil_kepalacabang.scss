@@ -1,0 +1,125 @@
+body {
+    background-color: #f9f9f9;
+    header {
+        .navbar-brand {
+            font-family: "Ruluko", sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        h6 {
+            font-family: "Merriweather", serif;
+            font-size: 17px;
+            font-weight: bold;
+            margin-top: 10px !important;
+        }
+        .dashboard {
+            background-color: rgba(22, 135, 167, 0.6);
+            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+            opacity: 0.9;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .mainmenubtn {
+            position: absolute;
+            background: url("images/profil.png");
+            border: none;
+            cursor: pointer;
+            /* left: 950px; */
+            top: -15px;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-child {
+            position: absolute;
+            display: none;
+            height: 160px;
+            background-color: rgba(39, 102, 120, 1);
+            border-radius: 5px;
+            min-width: 300px;
+            top: 20px;
+            /* left: 710px; */
+            z-index: 999;
+            right: -50px;
+        }
+        .dropdown-child a {
+            color: rgb(12, 12, 12);
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            width: 268px;
+            text-decoration: none;
+            display: block;
+            border-radius: 5px;
+            margin-bottom: -8px;
+        }
+        .dropdown:hover .dropdown-child {
+            display: block;
+        }
+        .link {
+            margin-top: 28px;
+            margin-left: 15px;
+            border-radius: 20px;
+        }
+    }
+    main {
+        .close {
+            margin-top: -80px;
+        }
+        .row {
+            margin-top: 100px;
+            margin-bottom: 50px;
+            .col {
+                img {
+                    margin-left: 200px;
+                    border-color: black;
+                }
+                h1 {
+                    font-family: "Mukta", sans-serif;
+                    font-size: 20px;
+                    font-weight: normal;
+                    margin-top: 10px;
+                    margin-left: 230px;
+                }
+                .form {
+                    margin-top: -35px;
+                    p {
+                        font-family: "Mukta", sans-serif;
+                        font-size: 20px;
+                    }
+                }
+                .form-group {
+                    margin-left: 150px;
+                    margin-top: -440px;
+                    .form-control {
+                        background-color: #d3e0ea;
+                        border-color: #000;
+                        border-radius: 5px;
+                        width: fit-content;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        background-color: rgba(22, 135, 167, 0.6);
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+        bottom: 0%;
+        left: 0%;
+        right: 0%;
+        .col-2 {
+            font-size: small;
+            padding-top: 12px;
+            padding-bottom: 12px;
+        }
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    /* Footer */
+    body footer .col-2 {
+        font-size: 8px;
+        height: 1777px;
+    }
+}

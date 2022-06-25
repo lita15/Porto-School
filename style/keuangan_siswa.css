@@ -1,0 +1,171 @@
+body {
+  background-color: #f6f5f5;
+}
+
+body header .navbar-brand {
+  font-family: "Ruluko", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+body header h6 {
+  font-family: "Merriweather", serif;
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 10px !important;
+}
+
+body header .dashboard {
+  background-color: rgba(22, 135, 167, 0.6);
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  opacity: 0.9;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+body header .mainmenubtn {
+  position: absolute;
+  background: url("images/profil.png");
+  border: none;
+  cursor: pointer;
+  /* left: 950px; */
+  top: -15px;
+}
+
+body header .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+body header .dropdown-child {
+  position: absolute;
+  padding: 20px 20px 20px 20px;
+  display: none;
+  height: 170px;
+  background-color: #276678;
+  border-radius: 5px;
+  min-width: 260px;
+  top: 20px;
+  /* left: 710px; */
+  z-index: 999;
+  right: -40px;
+}
+
+body header .card {
+  color: #0c0c0c;
+  background-color: white;
+  padding-top: 10px;
+  height: 110px;
+  text-decoration: none;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: -8px;
+}
+
+body header .card img {
+  border-radius: 50%;
+}
+
+body header .card p {
+  margin-top: 3px;
+  font-family: "Merriweather", serif;
+  font-size: 12px;
+}
+
+body header .btn {
+  margin-top: 13px;
+  border-radius: 10px;
+  font-family: "Merriweather", serif;
+  font-size: 10px;
+  background-color: #d3e0ea;
+  border-color: black;
+  color: black;
+  font-weight: bold;
+}
+
+body header .dropdown:hover .dropdown-child {
+  display: block;
+}
+
+body main {
+  font-family: "Mukta", sans-serif;
+}
+
+body main .close {
+  margin-top: -40px;
+}
+
+body main .container-1 {
+  margin-top: -10px !important;
+}
+
+body main .container {
+  margin-top: 70px;
+}
+
+body main .form-control {
+  background-color: #d3e0ea;
+  border-color: #000;
+  height: 40px;
+}
+
+body main .form-control-1 {
+  margin-left: auto;
+  background-color: #d3e0ea;
+  border-color: #000;
+  border-radius: 5px;
+  width: 245px;
+}
+
+body main .custom-select {
+  background-color: #d3e0ea;
+  border-color: #000;
+  border-radius: 5px;
+}
+
+body main .btn {
+  margin-left: auto;
+  border-color: black;
+  color: black;
+  width: 236px;
+  background-color: white;
+}
+
+@media screen and (max-width: 1200px) {
+  body main .form-control,
+  body main .form-control-1,
+  body main .custom-select {
+    width: 100%;
+    margin-top: 0;
+  }
+  body main .btn {
+    width: 100%;
+    margin-top: 0;
+    margin-top: 20px;
+  }
+}
+
+footer {
+  margin-top: 122px;
+  background-color: rgba(22, 135, 167, 0.6);
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+footer .col-2 {
+  font-size: small;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+@media screen and (min-width: 1700px) {
+  footer {
+    /* Footer */
+  }
+  footer .col-2 {
+    font-size: 8px;
+    height: 1777px;
+  }
+}
+/*# sourceMappingURL=keuangan_siswa.css.map */

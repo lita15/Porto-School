@@ -1,0 +1,88 @@
+body {
+  background-color: #d3e0ea;
+}
+
+body main .container .card-foto img {
+  margin-top: 80px;
+}
+
+body main .container .card {
+  margin-top: 60px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  border-radius: 0;
+}
+
+body main .container h6 {
+  font-family: "Merriweather", serif;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+body main .container form {
+  font-family: "Mukta", sans-serif;
+}
+
+body main .container form .form-group {
+  font-size: 15px;
+}
+
+body main .container form .form-control {
+  border-color: black;
+  height: 30px;
+  margin-top: -5px;
+}
+
+body main .container form .form-check {
+  margin-top: -13px;
+  margin-bottom: 35px;
+}
+
+body main .container form .form-check-label {
+  font-size: small;
+}
+
+body main .container form .btn {
+  border-color: black;
+  color: black;
+}
+
+body main .container form p {
+  margin-bottom: 10px;
+}
+
+body main .container form .kotak {
+  margin-top: 30px;
+}
+
+body footer {
+  margin-top: 60px;
+  background-color: rgba(22, 135, 167, 0.6);
+  -webkit-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+}
+
+body footer .col-2 {
+  font-size: small;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+@media screen and (min-width: 1700px) {
+  body {
+    /* Footer */
+  }
+  body body footer .col-2 {
+    font-size: 8px;
+    height: 1777px;
+  }
+}
+/*# sourceMappingURL=login_karyawan.css.map */
