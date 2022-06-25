@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -16,7 +15,6 @@
       rel="stylesheet"
       href="libraries/bootstrap-4.6.1-dist/css/bootstrap-grid.min.css"
     />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- CSS -->
 
     <!-- Google fonts -->
@@ -26,9 +24,8 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Mukta&family=Ruluko&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style/das_siswa.css" />
-    <title>Dashboar Siswa</title>
+    <link rel="stylesheet" href="style/data_personal_siswa.css" />
+    <title>Document</title>
   </head>
 
   <body>
@@ -45,263 +42,205 @@
             />
             SIAAP
           </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item mr-5">
-                <a class="nav-link" href="#">Info</a>
-              </li>
-              <li class="nav-item mr-5">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item mr-5">
-                <a class="nav-link" href="#">Help</a>
-              </li>
-              <li class="nav-item mr-5">
-                <a class="nav-link" href="/dasseting_siswa.html">Setting</a>
-              </li>
-              <li class="nav-item mr-5">
-                <a class="nav-link" href="/Homepage-1.html">Logout</a>
-              </li>
-            </ul>
-          </div>
-
+          <!--profil dropdown-->
+          <div class="dropdown profil ml-auto mr-3 btn-tak">
+            <button class="mainmenubtn">
+              <img src="images/profil.png" width="30" height="30 " alt="#" />
+            </button>
+            <div class="dropdown-child">
+              <div class="card">
+                <center>
+                  <img
+                    src="images/profil_siswa.png"
+                    width="60"
+                    height="60"
+                    alt=""
+                  />
+                  <p>
+                    <strong>Dwi Rahma</strong> <br />
+                    ( 14745 )
+                  </p>
+                </center>
+              </div>
+              <div class="tombol">
+                <a href="dasseting_siswa.html">
+                  <button type=" submit " class="btn btn-primary float-left">
+                    <img
+                      src="images/setting.png"
+                      width="15"
+                      height="15 "
+                      alt=""
+                    />Setting
+                  </button></a
+                >
+                <a href="Homepage-1.html">
+                  <button type=" submit " class="btn btn-danger float-right">
+                    <img
+                      src="images/off.png"
+                      width="15"
+                      height="15 "
+                      alt=""
+                    />Log Out
+                  </button></a
+                >
+              </div>
+            </div>
           </div>
         </nav>
       </div>
-
       <!-- End Navbar -->
 
       <!-- judul -->
       <div class="dashboard">
         <div class="container">
-          <nav class="navbar navbar-expand-lg navbar-light py-4" s>
+          <nav class="navbar navbar-expand-lg navbar-light" s>
             <div class="navbar-brand-1" href="# ">
-              <img src="images/dashboard.png " width="20" height="15" alt="#" />
-              DASHBOARD
-              <h4 class="judul1">Selamat Datang di Portal Siswa SIAAP</h4>
+              <h6>Agenda Pelajaran & Ekstra Rutin</h6>
             </div>
           </nav>
         </div>
       </div>
       <!-- end judul -->
     </header>
-
     <main>
-      <!-- Card -->
-      <center>
-        <div class="container col-8 mt-5">
-          <div class="row">
-            <div class="col p-5">
-              <div data-aos="fade-right" data-aos-duration="1000">
-                <a href="data_personal_siswa.html">
-                  <div class="card shadow rounded card-dashboard">
-                    <div class="card-body">
-                      <center>
-                        <img
-                          src="images/siswa.png"
-                          width="90px"
-                          height="90px"
-                          class="mt-5"
-                          srcset=""
-                        />
-                      </center>
-                      <center>
-                        <h2>Data Personal Siswa</h2>
-                      </center>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col p-5">
-              <div data-aos="fade-right" data-aos-duration="1000">
-                <a href="datakeuangan_siswa.html">
-                  <div class="card card-dashboard shadow rounded">
-                    <div class="card-body">
-                      <center>
-                        <img
-                          src="images/list.png"
-                          width="90px"
-                          height="90px"
-                          class="mt-5"
-                          srcset=""
-                        />
-                      </center>
-                      <center>
-                        <h2>Agenda Pelajaran & Ekstra Rutin</h2>
-                      </center>
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="col p-5">
-              <div data-aos="fade-right" data-aos-duration="1000">
-                <a href="raport.html">
-                  <div class="card card-dashboard shadow rounded">
-                    <div class="card-body">
-                      <center>
-                        <img
-                          src="images/rapor.png"
-                          width="90px"
-                          height="100px"
-                          class="mt-5"
-                          srcset=""
-                        />
-                      </center>
-                      <center>
-                        <h2>Rapor Siswa</h2>
-                      </center>
-                    </div>
-                  </div>
-                </a>
-              </div>
+      <div class="container">
+        <!-- button close -->
+        <a href="dasboard_siswa.html">
+          <button type="button" class="close mt-4" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </a>
+        <!-- end button close -->
+        <h5 class="mt-5">Agenda Kelas VIII E Semester II</h5>
+        <div data-aos="fade-down" data-aos-duration="1000">
+          <div class="card mt-5">
+            <div class="card-body">
+              <h5>Jadwal Pelajaran</h5>
+              <table class="table table-striped table-hover mt-4 text-center">
+                <thead>
+                  <tr>
+                    <th scope="col">Senin</th>
+                    <th scope="col">Selasa</th>
+                    <th scope="col">Rabu</th>
+                    <th scope="col">Kamis</th>
+                    <th scope="col">Jumat</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>IPA</td>
+                    <td>KWU</td>
+                    <td>Bahasa Inggris</td>
+                    <td>Penjaskes</td>
+                    <td>TIK</td>
+                  </tr>
+                  <tr>
+                    <td>IPA</td>
+                    <td>KWU</td>
+                    <td>Bahasa Inggris</td>
+                    <td>Penjaskes</td>
+                    <td>TIK</td>
+                  </tr>
+                  <tr>
+                    <td>Istirahat</td>
+                    <td>Istirahat</td>
+                    <td>Istirahat</td>
+                    <td>Istirahat</td>
+                    <td>Istirahat</td>
+                  </tr>
+                  <tr>
+                    <td>MTK</td>
+                    <td>Bahasa Indonesia</td>
+                    <td>Bahasa Inggris</td>
+                    <td>Penjaskes</td>
+                    <td>MTK</td>
+                  </tr>
+                  <tr>
+                    <td>MTK</td>
+                    <td>Bahasa Indonesia</td>
+                    <td>Bahasa Sunda</td>
+                    <td>Penjaskes</td>
+                    <td>MTK</td>
+                  </tr>
+                  <tr>
+                    <td>Seni Budaya</td>
+                    <td>IPS</td>
+                    <td>Bahasa Sunda</td>
+                    <td>Agama</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>Istirahat</td>
+                    <td>Istirahat</td>
+                    <td>Istirahat</td>
+                    <td>Istirahat</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>IPS</td>
+                    <td>IPS</td>
+                    <td>Seni Budaya</td>
+                    <td>Agama</td>
+                    <td>-</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
         </div>
-      </center>
+        <div data-aos="fade-down" data-aos-duration="1000">
+          <div class="card mt-5">
+            <div class="card-body">
+              <h5>Ekstra Rutin</h5>
+              <table class="table table-striped table-hover mt-4 text-center">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Nama Kegiatan</th>
+                    <th scope="col">Hari</th>
+                    <th scope="col">Jam</th>
+                    <th scope="col">Ruangan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Pramuka</td>
+                    <td>Jumat</td>
+                    <td>15.00</td>
+                    <td>Lapangan Indoor</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Marching Band</td>
+                    <td>Sabtu</td>
+                    <td>08.30</td>
+                    <td>Lapangan Voly</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Paskriba</td>
+                    <td>Rabu</td>
+                    <td>15.30</td>
+                    <td>Lapngan Sepak Bola</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
     </main>
-    <!-- End Card -->
-    <br /><br /><br />
-    <!-- footer -->
     <footer>
-
-        <!-- Footer -->
-        <footer
-          class="text-center text-white"
-
-        >
-          <!-- Grid container -->
-          <div class="container">
-            <!-- Section: Text -->
-            <section class="mb-0">
-              <div class="row d-flex justify-content-center">
-                <div class="col-lg-9">
-                  <p class="mt-5">
-                    Orang-orang yang berhenti belajar akan menjadi pemilik masa lalu. Orang-orang yang masih terus belajar, akan menjadi pemilik masa depan - <b> Mario Teguh</b>
-                  </p>
-                </div>
-              </div>
-            </section>
-            <!-- Section: Text -->
-
-            <hr class="my-5" />
-            <!-- Section: Links -->
-            <section class="mb-3">
-              <!-- Grid row-->
-              <div class="row text-center d-flex justify-content-center">
-                <!-- Grid column -->
-                <div class="col-md-2">
-                  <h6 class="text-uppercase font-weight-bold">
-                    <a href="#!" class="text-white">
-                        <div class="mb-3">
-                            <i class="bi bi-telephone-fill"> </i>
-                        </div>
-                        <p class="footer-sosmed">0877 - 7777 - 0000</p>
-                    </a>
-                  </h6>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2">
-                  <h6 class="text-uppercase font-weight-bold">
-                    <a href="#!" class="text-white">
-                        <div class="mb-3">
-                            <i class="bi bi-twitter"></i>
-                        </div>
-                        <p class="footer-sosmed">@SIIAP200</p>
-                    </a>
-                  </h6>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2">
-                  <h6 class="text-uppercase font-weight-bold">
-                    <a href="#!" class="text-white">
-                        <div class="mb-3">
-                            <i class="bi bi-instagram"></i>
-                        </div>
-                        <p class="footer-sosmed">@siaap-2022</p>
-                    </a>
-                  </h6>
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-2">
-                  <h6 class="text-uppercase font-weight-bold">
-                    <a href="#!" class="text-white">
-                        <div class="mb-3">
-                            <i class="bi bi-facebook"></i>
-                        </div>
-                        <p class="footer-sosmed">2022_Siaap</p>
-                    </a>
-                  </h6>
-                </div>
-                <!-- Grid column -->
-                                <!-- Grid column -->
-                <div class="col-md-2">
-                  <h6 class="text-uppercase font-weight-bold">
-                    <a href="#!" class="text-white">
-                        <div class="mb-3">
-                            <i class="bi bi-envelope-fill"></i>
-                        </div>
-                        <p class="footer-sosmed">siaap2022@ymail.com</p>
-                    </a>
-                  </h6>
-                </div>
-                <!-- Grid column -->
-              </div>
-              <!-- Grid row-->
-            </section>
-            <!-- Section: Links -->
+      <div class="penutup">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-2">Version 1.0</div>
+            <div class="col-2">Copyright©2021 SIIAP</div>
           </div>
-          <!-- Grid container -->
-
-          <!-- Copyright -->
-          <div
-            class="text-center p-2 footer-credit"
-          > Version 2.0
-            © 2022 
-            <a class="text-white" href="https://mdbootstrap.com/"></a>
-              Noor Yulita Apsari</a
-            >
-          </div>
-          <!-- Copyright -->
-        </footer>
-        <!-- Footer -->
+        </div>
       </div>
     </footer>
-    <!-- end footer -->
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-      crossorigin="anonymous"
-    ></script>
-    <script src="libraries/bootstrap-4.6.1-dist/js/bootstrap.min.js"></script>
-    <script src="retina-1.3.0/ "></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>

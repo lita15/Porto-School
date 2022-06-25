@@ -1,77 +1,88 @@
 .box1 {
-    margin: auto;
-    margin-top: 45px;
-    margin-bottom: 20px;
-    width: 95%;
-    background: #c4c4c4;
-    padding: 20px;
-    height: 170px;
+  margin: auto;
+  width: 95%;
+  background-color: #fbe698;
+  height: max-content;
+  opacity: 0.9;
+}
+.raport {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
 }
 
 .box2 {
-    margin: auto;
-    border: 1px solid black;
-    padding-top: 25px;
-    padding-bottom: 50px;
-    width: 95%;
-    background: #f6f5f5;
+  margin: auto;
+  border: 1px solid black;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  width: 95%;
+  background: #f6f5f5;
 }
 
 #mapel {
-    text-align: center;
+  text-align: center;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .kolom1 {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 
 .kolom2 {
-    margin-top: -113px;
-    margin-left: 60%;
+  margin-top: -113px;
+  margin-left: 60%;
 }
 
 .tabel1 {
-    margin: auto;
-    width: 85%;
+  margin: auto;
+  width: 85%;
 }
 
 .kel {
-    text-align: left;
+  text-align: left;
 }
 
 .tabel2,
 .tabel3 {
-    margin-top: 30px;
-    margin-left: 35px;
-    width: 400px;
-    margin-bottom: 50px;
+  margin-left: 8%;
+  width: 50%;
 }
 
 .orangtua {
-    margin-left: 35px;
+  margin-left: 35px;
 }
 
 .walikelas {
-    margin-top: -166px;
-    margin-left: 80%;
+  margin-top: -166px;
+  margin-left: 80%;
 }
-
-.submit {
-    margin-top: 100px;
-    margin-bottom: 200px;
-    margin-left: 80%;
-    background-color: rgb(250, 244, 245);
-    border: 1px solid black;
+.btn-color {
+  background-color: #003060;
+  color: #ffff !important;
+  font-weight: 400;
+}
+.btn-color:hover {
+  color: #003060 !important;
+  background-color: #fbe698;
+  font-weight: 400;
 }
 
 footer .container {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
 .download a {
-    text-decoration: none;
+  text-decoration: none;
+}
+@media screen and (max-width: 770px) {
+  /* Footer */
+  .box1 {
+    display: none;
+  }
+  .box2 {
+    margin-top: 10%;
+  }
 }
