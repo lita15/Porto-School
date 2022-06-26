@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="libraries/bootstrap-4.6.1-dist/css/bootstrap-grid.min.css"
+    />
+    <!-- CSS -->
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Mukta&family=Ruluko&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/data_personal_siswa.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- Navbar -->
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+          <a class="navbar-brand" href="# ">
+            <img
+              src="images/Logo_Sekolah.png  "
+              width="55"
+              height="40"
+              alt="#"
+            />
+            SIAAP
+          </a>
+          <!--profil dropdown-->
+          <div class="dropdown profil ml-auto mr-3 btn-tak">
+            <button class="mainmenubtn">
+              <img src="images/profil.png" width="30" height="30 " alt="#" />
+            </button>
+            <div class="dropdown-child">
+              <div class="card">
+                <center>
+                  <img
+                    src="images/profil_siswa.png"
+                    width="60"
+                    height="60"
+                    alt=""
+                  />
+                  <p>
+                    <strong>Dwi Rahma</strong> <br />
+                    ( 14745 )
+                  </p>
+                </center>
+              </div>
+              <div class="tombol">
+                <a href="dasseting_siswa.html">
+                  <button type=" submit " class="btn btn-primary float-left">
+                    <img
+                      src="images/setting.png"
+                      width="15"
+                      height="15 "
+                      alt=""
+                    />Setting
+                  </button></a
+                >
+                <a href="Homepage-1.html">
+                  <button type=" submit " class="btn btn-danger float-right">
+                    <img
+                      src="images/off.png"
+                      width="15"
+                      height="15 "
+                      alt=""
+                    />Log Out
+                  </button></a
+                >
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- End Navbar -->
+
+      <!-- judul -->
+      <div class="dashboard">
+        <div class="container">
+          <nav class="navbar navbar-expand-lg navbar-light" s>
+            <div class="navbar-brand-1" href="# ">
+              <h6>Jadwal Mengajar</h6>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <!-- end judul -->
+    </header>
+    <main>
+      <div class="container">
+        <!-- button close -->
+        <a href="/dasboard_guru.html">
+          <button type="button" class="close mt-3" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </a>
+        <!-- end button close -->
+        <h5 class="mt-5 py-5 text-center">
+          Jadwal Mengajar Guru SMP 1 Gunung Pati Tahun Pembelajaran 2021/2022
+          Semester II
+        </h5>
+        <div class="title-guru container">
+          <div class="row justify-content-start">
+            <div class="col-4">Nama</div>
+            <div class="col-4">: Ibnu Taehyung Samsudi</div>
+          </div>
+          <div class="row justify-content-start mt-3">
+            <div class="col-4">Guru Pengampu</div>
+            <div class="col-4">: Seni Musik</div>
+          </div>
+          <div class="row justify-content-start mt-3">
+            <div class="col-4">Status</div>
+            <div class="col-4">: Aktif</div>
+          </div>
+          <div class="row justify-content-start mt-3">
+            <div class="col-4">Total Jam Mengajar (Satu Minggu)</div>
+            <div class="col-4">: 20 Jam</div>
+          </div>
+        </div>
+
+        <div data-aos="fade-down" data-aos-duration="1000">
+          <div class="card mt-5">
+            <div class="card-body">
+              <h5>Jadwal Pelajaran</h5>
+              <table class="table table-striped table-hover mt-4 text-center">
+                <thead>
+                  <tr>
+                    <th scope="col jam-kelas"></th>
+                    <th scope="col">Senin</th>
+                    <th scope="col">Selasa</th>
+                    <th scope="col">Rabu</th>
+                    <th scope="col">Kamis</th>
+                    <th scope="col">Jumat</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>7:45 - 8:30</td>
+                    <td>VII A</td>
+                    <td>-</td>
+                    <td>VIII D</td>
+                    <td>VII F</td>
+                    <td>VII A</td>
+                  </tr>
+                  <tr>
+                    <td>8:30 - 9:15</td>
+                    <td>VII A</td>
+                    <td>VIII B</td>
+                    <td>VIII D</td>
+                    <td>VII F</td>
+                    <td>VII A</td>
+                  </tr>
+                  <tr>
+                    <td>9:15 - 9:35</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>9:35 - 10:20</td>
+                    <td>IX B</td>
+                    <td>VIII B</td>
+                    <td>-</td>
+                    <td>IX D</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>10:20 - 11:05</td>
+                    <td>-</td>
+                    <td>VIII E</td>
+                    <td>-</td>
+                    <td>IX D</td>
+                    <td>IX C</td>
+                  </tr>
+                  <tr>
+                    <td>11:05 - 11:50</td>
+                    <td>IX C</td>
+                    <td>VIII E</td>
+                    <td>IX C</td>
+                    <td>-</td>
+                    <td>IX C</td>
+                  </tr>
+                  <tr>
+                    <td>11:50 - 12:10</td>
+                    <td>IX C</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>VII B</td>
+                    <td>-</td>
+                  </tr>
+                  <tr>
+                    <td>12:10 - 12:55</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>IX C</td>
+                    <td>VII B</td>
+                    <td>-</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div data-aos="fade-down" data-aos-duration="1000">
+          <div class="card mt-5">
+            <div class="card-body">
+              <h5>Jadwal Mengajar Ekstra Rutin</h5>
+              <table class="table table-striped table-hover mt-4 text-center">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Nama Kegiatan</th>
+                    <th scope="col">Hari</th>
+                    <th scope="col">Bulan</th>
+                    <th scope="col">Ruangan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Pramuka</td>
+                    <td>Jumat</td>
+                    <td>Januari - April</td>
+                    <td>Lapangan Indoor</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Seni Musik</td>
+                    <td>Kamis</td>
+                    <td>Februari - September</td>
+                    <td>Ruang Musik</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+    </main>
+    <footer>
+      <div class="penutup">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-2">Version 1.0</div>
+            <div class="col-2">Copyright©2021 SIIAP</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

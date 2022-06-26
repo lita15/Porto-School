@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="libraries/bootstrap-4.6.1-dist/css/bootstrap-grid.min.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="style/keuangan_siswa.css">
+    <link rel="stylesheet" href="style/data_raport.css">
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -67,86 +67,96 @@
     <main>
         <!-- button close -->
         <div class="container">
-            <a href="dasboard_siswa.html">
-                <button type="button" class="close" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </a>
-            <!-- end button close -->
-            <div class="container mt-5">
-                <div class="container">
-                    <!-- Form -->
-                    <div class="row">
-                        <div class="col">NIS</div>
-                        <div class="col"><input type="text" class="form-control" required="" id="nis"></div>
-                        <div class="col">Biaya Pendaftaran</div>
-                        <div class="col"><input type="text" class="form-control" required="" id="biaya"></div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col">Nama Lengkap</div>
-                        <div class="col"><input type="text" class="form-control" required="" id="nama"></div>
-                        <div class="col">Status</div>
-                        <div class="col">
-                            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                                <div class="isi">
-                                    <option selected></option>
-                                    <option value="1">Lunas</option>
-                                    <option value="2">Belum Lunas</option>
-                                </div>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col">Tanggal Lahir</div>
-                        <div class="col"><input type="date" class="form-control" id="ttl"></div>
-                        <div class="col">Jenis Bimbingan</div>
-                        <div class="col">
-                            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                                <div class="isi">
-                                    <option selected></option>
-                                    <option value="1">Konseling Personal</option>
-                                    <option value="2">Bimbingan Belajar</option>
-                                    <option value="3">Bimbingan Orientasi</option>
-                                </div>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col">Kelas</div>
-                        <div class="col"><input type="text" class="form-control" id="kelas"></div>
-                        <div class="col">Biaya Bimbingan</div>
-                        <div class="col">
-                            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                                <div class="isi">
-                                    <option selected></option>
-                                    <option value="1">Rp 50.000</option>
-                                    <option value="2">Rp 100.000</option>
-                                    <option value="3">Rp 200.000</option>
-                                </div>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <div class="col">Alamat</div>
-                        <div class="col">
-                            <textarea class="form-control-1" required="" id=" exampleFormControlTextarea1 " rows="4"></textarea>
-                        </div>
-                        <div class="col ">Status</div>
-                        <div class="col">
-                            <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-                                <div class="isi">
-                                    <option selected></option>
-                                    <option value="1">Lunas</option>
-                                    <option value="2">Belum Lunas</option>
-                                </div>
-                            </select>
-                        </div>
-                    </div>
-                    <!-- Button -->
-                    <button onclick="alert('Data Tersimpan')" type=" submit " class=" btn btn-outline-success float-right">KIRIM</button>
-                </div>
 
+            <!-- end button close -->
+                <main>
+        <div class="container mt-3">
+            <!-- end button close -->
+            <h4 class="container mt-5">
+                <b>Pengisian Data Keuangan Siswa</b></h4>
+            <div class="row container mt-3 ">
+                <div class="col-md-6 mt-4">
+                    <div class="">NIS
+                        <input type="text" class="form-control" placeholder="14745">
+                    </div>  
+                </div>
+                <div class="col-md-6 ml-auto mt-4">
+                    <div class="">Nama Lengkap
+                        <input type="text" class="form-control" placeholder="Dwi Rahma">
+                    </div>
+                </div>
             </div>
+                <div class="row container ">
+                <div class="col-md-6 mt-4">
+                    <div class="">Kelas
+                        <select class="custom-select" id="inlineFormCustomSelect">
+                            <div class="isi">
+                                        <option selected></option>
+                                        <option value="1">VII A</option>
+                                        <option value="2">VII B</option>
+                                        <option value="3">VII C</option>
+                                        <option value="4">VII D</option>
+                                        <option value="5">VII E</option>
+                                        <option value="6">VIII A</option>
+                                        <option value="7">VIII B</option>
+                                        <option value="8">VIII C</option>
+                                        <option value="9">VIII D</option>
+                                        <option value="10">VIII E</option>
+                                        <option value="11">IX A</option>
+                                        <option value="12">IX B</option>
+                                        <option value="13">IX C</option>
+                                        <option value="14">IX D</option>
+                                        <option value="15">IX E</option>
+                            </div>
+                        </select>
+                    </div>  
+                </div>
+                <div class="col-md-6 ml-auto mt-4">
+                    <div class="">Semester
+                        <select class="custom-select" id="inlineFormCustomSelect">
+                            <div class="isi">
+                                        <option selected></option>
+                                        <option value="1">I</option>
+                                        <option value="2">II</option>
+                            </div>
+                        </select>
+                    </div>
+                </div>
+                
+            </div>
+             <div class="row container ">
+                <div class="col-md-6 mt-4">
+                    <div class="">Pembangunan Gedung
+                        <input type="number" class="form-control" placeholder="Rp 1.500.000">
+                    </div>  
+                </div>
+                <div class="col-md-6 ml-auto mt-4">
+                    <div class="">Dana Hibahan
+                        <input type="number" class="form-control" placeholder="Rp 100.000">
+                    </div>
+                </div>
+            </div>
+                         <div class="row container ">
+                <div class="col-md-6 mt-4">
+                    <div class="">Tanggal Pembayaran
+                        <input type="date" class="form-control" >
+                    </div>  
+                </div>
+                <div class="col-md-6 ml-auto mt-4">
+                    <div class="">Total Pembayaran
+                        <input type="number" class="form-control" placeholder="Rp 1.500.000">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container mt-5 mb-5">
+                <div class="row container">
+                    <a href="/dasboard_adm.html" type="submit" class="btn btn-cancel">Cancel</a>
+                    <button onclick="alert('Data Tersimpan')" type="submit" class="btn btn-sumbit ml-4">Submit</button>
+                </div>
+            </div>
+        </div>
+    </main>
         </div>
         </div>
     </main>
